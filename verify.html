@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Verify Certificate</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🎓 Blockchain Certificate Verification System</h1>
+
+<p>B.Tech 6th Semester Mini Project</p>
+
+</header>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="admin-login.html">Admin Login</a>
+
+<a href="institute-login.html">Institute Login</a>
+
+<a href="verify.html">Verify Certificate</a>
+
+</nav>
+
+<main>
+
+<div class="card">
+
+<h2>Verify Certificate</h2>
+
+<form id="verifyForm">
+
+<label>Certificate ID</label>
+
+<input
+type="text"
+id="certificateId"
+placeholder="Example: CERT-2026-0001"
+required>
+
+<button type="submit">
+
+Verify
+
+</button>
+
+</form>
+
+</div>
+
+<div class="card" id="resultCard" style="display:none;">
+
+<h2>Verification Result</h2>
+
+<table>
+
+<tr>
+
+<th>Certificate ID</th>
+
+<td id="certificate"></td>
+
+</tr>
+
+<tr>
+
+<th>Student Name</th>
+
+<td id="student"></td>
+
+</tr>
+
+<tr>
+
+<th>Institute</th>
+
+<td id="institute"></td>
+
+</tr>
+
+<tr>
+
+<th>Course</th>
+
+<td id="course"></td>
+
+</tr>
+
+<tr>
+
+<th>Passing Year</th>
+
+<td id="year"></td>
+
+</tr>
+
+<tr>
+
+<th>CGPA</th>
+
+<td id="cgpa"></td>
+
+</tr>
+
+<tr>
+
+<th>Issue Date</th>
+
+<td id="issueDate"></td>
+
+</tr>
+
+<tr>
+
+<th>Blockchain Block</th>
+
+<td id="block"></td>
+
+</tr>
+
+<tr>
+
+<th>SHA-256 Hash</th>
+
+<td id="hash"></td>
+
+</tr>
+
+<tr>
+
+<th>Status</th>
+
+<td id="status"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+</main>
+
+<footer>
+
+<p>
+
+Blockchain Certificate Verification System
+
+<br>
+
+Department of Computer Science & Engineering
+
+<br>
+
+Academic Session 2025-2026
+
+</p>
+
+</footer>
+
+<script src="js/storage.js"></script>
+
+<script src="js/verify.js"></script>
+
+</body>
+
+</html>

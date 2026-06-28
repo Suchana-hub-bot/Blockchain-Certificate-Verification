@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Add Institute</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🎓 Blockchain Certificate Verification System</h1>
+
+<p>B.Tech 6th Semester Mini Project</p>
+
+</header>
+
+<nav>
+
+<a href="admin-dashboard.html">Dashboard</a>
+
+<a href="add-institute.html">Add Institute</a>
+
+<a href="view-institutes.html">View Institutes</a>
+
+<a href="#" id="logoutBtn">Logout</a>
+
+</nav>
+
+<main>
+
+<div class="card">
+
+<h2>Register New Institute</h2>
+
+<form id="instituteForm">
+
+<label>Institute Name</label>
+<input
+type="text"
+id="name"
+required>
+
+<label>Email</label>
+<input
+type="email"
+id="email"
+required>
+
+<label>Phone Number</label>
+<input
+type="text"
+id="phone"
+maxlength="10"
+required>
+
+<label>Address</label>
+<textarea
+id="address"
+rows="3"
+required></textarea>
+
+<label>Username</label>
+<input
+type="text"
+id="username"
+required>
+
+<label>Password</label>
+<input
+type="password"
+id="password"
+required>
+
+<button type="submit">
+
+Add Institute
+
+</button>
+
+</form>
+
+<p id="message"></p>
+
+</div>
+
+</main>
+
+<footer>
+
+<p>
+
+Blockchain Certificate Verification System
+
+<br>
+
+Department of Computer Science & Engineering
+
+<br>
+
+Academic Session : 2025-2026
+
+</p>
+
+</footer>
+
+<script src="js/storage.js"></script>
+<script src="js/add-institute.js"></script>
+
+</body>
+
+</html>
